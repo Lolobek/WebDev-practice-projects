@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+div#primary, div#secondary, div#tertiary {
+    border: 1px solid rgb(61, 30, 30);
+    width: 100%;
+}
+
+div#primary {
+    background-color: rgb(95, 121, 145);
+    height: 1000px;
+    min-width: 1000px;
+    width: 100%;
+    position:relative;
+    margin: 0
+
+}
+
+div#primary div#text {
+    position: absolute;
+    left: 0;
+    width: 60%;
+    height: 100%
+
+}
+
+div#primary div#img {
+    position: absolute;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    z-index: 1;
+}
+
+div#primary p#img {
+    background-color: black;
+    width: 600px;
+    height: 750px;
+    min-width: 300px;
+    min-height: 375px;
+    margin: auto;
+    margin-top:125px;
+}
+
+div#primary h1 {
+    font-size: 45px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 125px;
+
+}
+
+div#primary p.text {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+div#primary h2#CTA-1 {
+    font-size: 30px;
+    border: 1px solid darkblue;
+    width: fit-content;
+    margin: 250px auto;
+}
+
+div#primary h2#CTA-1:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(95, 121, 145);
+}
+
+
+
+
+
+div#secondary {
+    background-color: rgb(29, 45, 61);
+    height: 1000px;
+    min-width: 1000px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+div#secondary div#kolumny {
+    height: 400px;
+    margin: 300px;
+    
+}
+
+div.kolumna {
+    display: inline-block;
+    text-align: center;
+    height: 400px;
+    width: 33.1%
+}
+
+div.kolumna p {
+    font-size: 50px;
+}
+
+div.kolumna p#img {
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+}
+
+
+div#tertiary {
+    height: 400px;
+    background-color: rgb(95, 121, 145);
+    position: relative;
+
+}
+
+div#tertiary h2 {
+    height: 100px;
+    text-align: center;
+    font-size: 72px;
+    margin: 150px auto;
+
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(50, 67, 83);
+    text-align: center;
+}
+
+footer p{
+    display: inline-block;
+    color: white;
+    margin: 17px 100px;
+    height: 16px
+}

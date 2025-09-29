@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+/* main */
+main {
+    margin: 0 auto;
+}
+
+
+
+/* header */
+header {
+
+    background-image: url("/Codecademy\ Project\ -\ Dasmotos\ Arts\ and\ Crafts/images/pattern.webp");
+    background-size: cover;
+    background-position: center;
+
+    height: fit-content;
+    width: 99%;
+
+    margin: 100px auto;
+}
+
+header h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    margin: 10px 25px;
+}
+
+/* section class */
+section {
+    width: 99%;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+/* section 1 */
+section#section-1 h2{
+    background-color: mediumspringgreen;
+}
+
+/* section 2 */
+section#section-2 h2{
+    background-color: lightcoral;
+}
+
+/* section 3 */
+section#section-3 h2{
+    background-color: skyblue;
+}
+
+/* anchor class */
+a {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
+
+/* paragraph class */ 
+p {
+    font-size: 20px;
+}
+
+/* h3 class */
+h3 {
+    font-size: 30px;
+}
