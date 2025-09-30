@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: azure;
+}
+
+.main-title {
+    font-size: 72px;
+    text-align: center;
+    color: rgb(94, 35, 94);
+    font-family:monospace;
+}
+
+.table-title {
+    font-size: 42px;
+    text-align: center;
+    color: rgb(71, 15, 15);
+    font-family: serif;
+}
+
+table {
+    text-align: center;
+    border: rgb(0, 0, 0) solid 1px;
+    margin: 0 auto;
+}
+
+td {
+    border: rgb(4, 22, 56) solid 1px;
+    padding: 1.4em;
+}
+
+.Słowo {
+    font-size: 1.2em;
+    font-weight: 900;
+    color:crimson;
+}
+
+.Definicja {
+    font-size: 1.1em;
+    font-weight: 600;
+}
