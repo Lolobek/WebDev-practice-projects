@@ -42,3 +42,11 @@ td {
     font-size: 1.1em;
     font-weight: 600;
 }
+
+th {
+  color: rgb(7, 7, 87);
+  font-size: 1.5em;
+  font-weight: 1000;
+  padding: 0.5em;
+  border: rgb(4, 22, 56) solid 1px;
+}
