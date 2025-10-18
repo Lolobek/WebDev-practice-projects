@@ -1,6 +1,5 @@
 * {
     font-family: Helvetica;
-    font-size: 22px;
     color: seashell;
     text-align: center;
     width: 100%;
@@ -55,7 +54,7 @@ header .navigation li {
 
 .section-1 {
     height: 700px;
-    width: 1200px;;
+    max-width: 1200px;;
     background-image: url("../images/img-mission-background.jpg");
     margin: 0 auto;
 
@@ -65,6 +64,89 @@ header .navigation li {
 
 .section-1 .text-banner {
     height: fit-content;
-    width: 1200px;
+    max-width: 1200px;
     background-color: black;
+}
+
+
+
+/*                      */
+/*       section-2      */
+/*                      */
+
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.section-2 .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.section-2 .flex-item img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.section-2 .flex-item {
+    height: fit-content;
+    width: fit-content;
+}
+
+.section-2 .flex-item h4 {
+    margin-top: 10px;
+}
+
+
+/*                      */
+/*       section-3      */
+/*                      */
+
+.section-3 {
+    height: 500px;
+    max-width: 1200px;
+    background-image: url("../images/img-locations-background.jpg");
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-3 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section-3 .flex-item {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+/*                      */
+/*         footer       */
+/*                      */
+
+footer .contact-info {
+    height: 200px;
+}
+
+footer .copyright {
+    text-align: left;
 }
